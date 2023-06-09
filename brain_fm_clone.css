@@ -73,10 +73,6 @@ div{
     justify-content: center;
 }
 
-img{
-    display: block;
-}
-
 h1{
     font-size: 30pt;
     font-weight: 800;
@@ -136,7 +132,7 @@ h5{
 }
 .img{
     display:flex;
-    justify-content: start;
+    justify-content: center;
     align-self: center;
 }
 #img-typing{
@@ -200,4 +196,20 @@ a:hover{
 }
 .basic-link{
     text-decoration: underline;
+}
+
+
+/* Tyler's Changes */
+
+.typing-gif {
+    display:flex;
+    justify-content: center;
+    align-self: center;
+    flex: 0 1 900px;
+    max-width: 100%;
+}
+
+.top-section {
+    margin: 30px;
+    display: flex;
 }
